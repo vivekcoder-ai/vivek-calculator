@@ -4,7 +4,7 @@ st.title("WELCOME TO VIVEK'S CALCULATOR")
 usr = st.text_input("What's your name??")
 
 if usr:
-    st.write("Hello", usr, "my name is vivek, let's start calculatin")
+    st.write("Hello", usr, "my name is vivek, let's start calculating")
     num1 = st.number_input("Enter the first number", value=None)
     
     if num1 is not None:
