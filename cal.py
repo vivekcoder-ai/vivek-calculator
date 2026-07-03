@@ -11,7 +11,7 @@ if usr:
         num2 = st.number_input("Enter the second number", value=None)
         
         if num2 is not None:
-            opp = st.number_input("Enter the operation '+', '-', '*', '/'").strip()
+            opp = st.input("Enter the operation '+', '-', '*', '/'").strip()
             
             if st.button("Calculate"):
                 st.balloons()
